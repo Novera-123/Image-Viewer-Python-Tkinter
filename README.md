@@ -54,4 +54,6 @@ Use the application.
 - reset_image(event): Resets the image to its original state on double-click.
 
 ### Copy the code in your Python IDE and see how it works.
+
+## Video Link : https://drive.google.com/file/d/1XlOxAwsRVHPOXKA9JE_BaGr4_sYwXcoP/view?usp=sharing
    
