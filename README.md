@@ -24,8 +24,34 @@ This is a simple image viewer application built using Tkinter and Pillow (PIL) i
    git clone https://github.com/yourusername/tkinter-image-viewer.git
    cd tkinter-image-viewer
 
-  # Install the Required Python Packages
+  ## 2. Install the Required Python Packages 
   ```bash
 pip install pillow
 ```
+## Usage
+
+Run the application.
+
+bash
+Copy code
+python image_viewer.py
+Use the application.
+
+- Click Open Image to open a single image file.
+- Click Open Directory to select a directory and load the first image.
+- Use Previous and Next buttons to navigate through images in the selected directory.
+- Hover over the image to zoom in.
+- Double-click on the image to reset it to its original state.
+
+## Code Overview
+
+- load_image(file_path): Loads and displays the specified image file.
+- open_image(): Opens a file dialog to select a single image file.
+- open_directory(): Opens a directory dialog to select a directory containing images.
+- next_image(): Loads the next image in the directory.
+- prev_image(): Loads the previous image in the directory.
+- zoom(event): Handles mouse movement to zoom into the image.
+- reset_image(event): Resets the image to its original state on double-click.
+
+### Copy the code in your Python IDE and see how it works.
    
